@@ -2,7 +2,7 @@
 core = "7.x"
 api = "2"
 ; comment this in to use in local development
-includes[] = drupal-org-core.make
+;includes[] = drupal-org-core.make
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc4"
