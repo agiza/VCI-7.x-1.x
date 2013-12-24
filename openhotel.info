@@ -1,6 +1,6 @@
-name = Open Hotel
-description = A free Drupal distribution with online availability and online booking for your resort.
-exclusive = 0
+name = VC International
+description = Development
+;exclusive = 1
 core = 7.x
 
 ; Core
@@ -89,21 +89,21 @@ dependencies[] = flexslider_views_slideshow
 dependencies[] = cs_adaptive_image
 
 ; Multilingual
-dependencies[] = i18n
-dependencies[] = i18n_block
-dependencies[] = i18n_field
-dependencies[] = i18n_menu
-dependencies[] = i18n_node
-dependencies[] = i18n_path
-dependencies[] = i18n_redirect
-dependencies[] = i18n_select
-dependencies[] = i18n_string
-dependencies[] = i18n_sync
-dependencies[] = i18n_taxonomy
-dependencies[] = i18n_translation
-dependencies[] = i18n_variable
+;dependencies[] = i18n
+;dependencies[] = i18n_block
+;dependencies[] = i18n_field
+;dependencies[] = i18n_menu
+;dependencies[] = i18n_node
+;dependencies[] = i18n_path
+;dependencies[] = i18n_redirect
+;dependencies[] = i18n_select
+;dependencies[] = i18n_string
+;dependencies[] = i18n_sync
+;dependencies[] = i18n_taxonomy
+;dependencies[] = i18n_translation
+;dependencies[] = i18n_variable
 dependencies[] = languageicons
-dependencies[] = rules_i18n
+;dependencies[] = rules_i18n
 
 ; Other
 dependencies[] = colorbox

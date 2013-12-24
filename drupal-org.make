@@ -5,6 +5,10 @@ api = "2"
 includes[] = drupal-org-core.make
 
 ; Modules
+
+projects[backup_migrate][subdir] = contrib
+projects[backup_migrate][version] = 2.8
+
 projects[admin_menu][version] = "3.0-rc4"
 projects[admin_menu][subdir] = "contrib"
 
