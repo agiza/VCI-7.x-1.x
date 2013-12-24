@@ -3,12 +3,10 @@
 ;
 ; drush make distro.make <target directory>
 
-core = 7.x
+api = 2
+core = 7.16
 
 ; includes[] = drupal-org-core.make
-
-projects[drupal][type] = core
-projects[drupal][version] = 7.21
 
 ; Add Opendeals to the full distribution build.
 projects[openhotel][type] = profile
