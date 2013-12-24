@@ -1,6 +1,6 @@
 name = Open Hotel
 description = A free Drupal distribution with online availability and online booking for your resort.
-exclusive = 1
+exclusive = 0
 core = 7.x
 
 ; Core
@@ -169,4 +169,4 @@ dependencies[] = openhotel_structure
 dependencies[] = openhotel_views
 
 ; Files included with profile
-files[] = opendeals.profile
+ files[] = opendeals.profile
