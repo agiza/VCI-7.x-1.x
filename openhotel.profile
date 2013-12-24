@@ -1,7 +1,7 @@
 <?php
 
 
-function vci1_form_install_configure_form_alter(&$form, &$form_state, $form_id) {
+function opnehotel_form_install_configure_form_alter(&$form, &$form_state, $form_id) {
   // Hide some messages from various modules that are just too chatty.
   drupal_get_messages('status');
   drupal_get_messages('warning');
