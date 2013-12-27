@@ -18,8 +18,8 @@ projects[ctools][subdir] = "contrib"
 projects[commerce][version] = "1.5"
 projects[commerce][subdir] = "contrib"
 
-projects[commerce_google_analytics][version] = "1.0"
-projects[commerce_google_analytics][subdir] = "contrib"
+; projects[commerce_google_analytics][version] = "1.0"
+; projects[commerce_google_analytics][subdir] = "contrib"
 
 projects[field_redirection][version] = "2.5"
 projects[field_redirection][subdir] = "contrib"
@@ -78,14 +78,14 @@ projects[entity][subdir] = "contrib"
 projects[libraries][version] = "2.1"
 projects[libraries][subdir] = "contrib"
 
-projects[module_filter][version] = "1.7"
-projects[module_filter][subdir] = "contrib"
+; projects[module_filter][version] = "1.7"
+; projects[module_filter][subdir] = "contrib"
 
 projects[pathauto][version] = "1.2"
 projects[pathauto][subdir] = "contrib"
 
-projects[strongarm][version] = "2.0"
-projects[strongarm][subdir] = "contrib"
+; projects[strongarm][version] = "2.0"
+; projects[strongarm][subdir] = "contrib"
 
 projects[token][version] = "1.5"
 projects[token][subdir] = "contrib"
@@ -117,11 +117,11 @@ projects[draggableviews][subdir] = "contrib"
 projects[views][version] = "3.5"
 projects[views][subdir] = "contrib"
 
-projects[views_slideshow][version] = "3.0"
-projects[views_slideshow][subdir] = "contrib"
+; projects[views_slideshow][version] = "3.0"
+; projects[views_slideshow][subdir] = "contrib"
 
-projects[webform][version] = "3.18"
-projects[webform][subdir] = "contrib"
+; projects[webform][version] = "3.18"
+; projects[webform][subdir] = "contrib"
 
 projects[context][version] = "3.0-beta6"
 projects[context][subdir] = "contrib"
@@ -177,9 +177,6 @@ projects[feeds_xpathparser][version] = 1.0-beta4
 
 projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
-
-projects[htmLawed][subdir] = contrib
-projects[htmLawed][version] = 3.2
 
 projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha3
@@ -239,8 +236,8 @@ projects[strongarm][version] = 2.0
 projects[superfish][subdir] = contrib
 projects[superfish][version] = 1.9
 
-projects[wordpress_migrate][subdir] = contrib
-projects[wordpress_migrate][version] = 2.2
+; projects[wordpress_migrate][subdir] = contrib
+; projects[wordpress_migrate][version] = 2.2
 
 projects[xmlsitemap][subdir] = contrib
 projects[xmlsitemap][version] = 2.0-rc2
@@ -257,14 +254,14 @@ projects[nodequeue][version] = 2.0-beta1
 projects[auto_nodequeue][subdir] = contrib
 projects[auto_nodequeue][version] = 1.6
 
-projects[disqus][subdir] = contrib
-projects[disqus][version] = 1.10
+; projects[disqus][subdir] = contrib
+; projects[disqus][version] = 1.10
 
-projects[menu_icons][subdir] = contrib
-projects[menu_icons][version] = 3.0-beta4
+; projects[menu_icons][subdir] = contrib
+; projects[menu_icons][version] = 3.0-beta4
 
-projects[stage_file_proxy][subdir] = contrib
-projects[stage_file_proxy][version] = 1.4
+; projects[stage_file_proxy][subdir] = contrib
+; projects[stage_file_proxy][version] = 1.4
 
 projects[robotstxt][subdir] = contrib
 projects[robotstxt][version] = 1.1
@@ -316,8 +313,8 @@ projects[extlink][version] = 1.13
 projects[module_filter][subdir] = contrib
 projects[module_filter][version] = 1.8
 
-projects[content_experiments][subdir] = contrib
-projects[content_experiments][version] = 1.4
+; projects[content_experiments][subdir] = contrib
+; projects[content_experiments][version] = 1.4
 
 ; The File entity project is not compatible with Media 7.x-1.x. You must use the File entity module bundled with Media 7.x-1.x.
 ; projects[file_entity][subdir] = contrib
@@ -424,8 +421,8 @@ projects[simple_gmap][version] = 1.1
     projects[tablefield][version] = 2.2
     projects[tablefield][subdir] = contrib
 
-    projects[simple_gmap][version] = 1.0
-    projects[simple_gmap][subdir] = contrib
+    ; projects[simple_gmap][version] = 1.0
+    ; projects[simple_gmap][subdir] = contrib
 
     ; Panopoly - Contrib - Widgets
 
