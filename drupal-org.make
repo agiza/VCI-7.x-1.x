@@ -6,20 +6,11 @@ includes[] = drupal-org-core.make
 
 ; Modules
 
-projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 2.8
-
-projects[admin_menu][version] = "3.0-rc4"
-projects[admin_menu][subdir] = "contrib"
-
-projects[ctools][version] = "1.2"
-projects[ctools][subdir] = "contrib"
-
 projects[commerce][version] = "1.5"
 projects[commerce][subdir] = "contrib"
 
-; projects[commerce_google_analytics][version] = "1.0"
-; projects[commerce_google_analytics][subdir] = "contrib"
+projects[commerce_google_analytics][version] = "1.0"
+projects[commerce_google_analytics][subdir] = "contrib"
 
 projects[field_redirection][version] = "2.5"
 projects[field_redirection][subdir] = "contrib"
@@ -36,9 +27,6 @@ projects[profiler_builder][subdir] = "contrib"
 projects[features][version] = "1.0"
 projects[features][subdir] = "contrib"
 
-projects[diff][version] = "3.2"
-projects[diff][subdir] = "contrib"
-
 projects[features_extra][version] = "1.0-alpha2"
 projects[features_extra][subdir] = "contrib"
 
@@ -47,9 +35,6 @@ projects[ftools][subdir] = "contrib"
 
 projects[addressfield][version] = "1.0-beta3"
 projects[addressfield][subdir] = "contrib"
-
-projects[link][version] = "1.0"
-projects[link][subdir] = "contrib"
 
 projects[flexslider][version] = "1.0-rc3"
 projects[flexslider][subdir] = "contrib"
@@ -66,35 +51,23 @@ projects[i18n][subdir] = "contrib"
 projects[languageicons][version] = "1.0"
 projects[languageicons][subdir] = "contrib"
 
-projects[rules][version] = "2.2"
-projects[rules][subdir] = "contrib"
+; projects[rules][version] = "2.2"
+; projects[rules][subdir] = "contrib"
 
 projects[colorbox][version] = "1.5"
 projects[colorbox][subdir] = "contrib"
 
-projects[entity][version] = "1.0"
-projects[entity][subdir] = "contrib"
-
-projects[libraries][version] = "2.1"
-projects[libraries][subdir] = "contrib"
-
 ; projects[module_filter][version] = "1.7"
 ; projects[module_filter][subdir] = "contrib"
-
-projects[pathauto][version] = "1.2"
-projects[pathauto][subdir] = "contrib"
 
 ; projects[strongarm][version] = "2.0"
 ; projects[strongarm][subdir] = "contrib"
 
-projects[token][version] = "1.5"
-projects[token][subdir] = "contrib"
+; projects[token][version] = "1.5"
+; projects[token][subdir] = "contrib"
 
 projects[transliteration][version] = "3.1"
 projects[transliteration][subdir] = "contrib"
-
-projects[entityreference][version] = "1.0"
-projects[entityreference][subdir] = "contrib"
 
 projects[rooms][version] = "1.0-rc2"
 projects[rooms][subdir] = "contrib"
@@ -102,8 +75,8 @@ projects[rooms][subdir] = "contrib"
 projects[rules][version] = "2.2"
 projects[rules][subdir] = "contrib"
 
-projects[google_analytics][version] = "1.3"
-projects[google_analytics][subdir] = "contrib"
+; projects[google_analytics][version] = "1.3"
+; projects[google_analytics][subdir] = "contrib"
 
 projects[omega_tools][version] = "3.0-rc4"
 projects[omega_tools][subdir] = "contrib"
@@ -148,17 +121,8 @@ libraries[jquery.cycle][destination] = "libraries"
 libraries[jquery.cycle][download][type] = "get"
 libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/master/jquery.cycle.all.js"
 
-projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 3.0-rc4
-
 projects[coffee][subdir] = contrib
 projects[coffee][version] = 2.0
-
-projects[diff][subdir] = contrib
-projects[diff][version] = 3.2
-
-projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 2.8
 
 projects[context][subdir] = contrib
 projects[context][version] = 3.1
@@ -285,8 +249,8 @@ projects[google_authorship][version] = 2.0-beta1
 
 ; Share This - social media
 
-projects[sharethis][subdir] = contrib
-projects[sharethis][version] = 2.5
+; projects[sharethis][subdir] = contrib
+; projects[sharethis][version] = 2.5
 
 ; Metatags Quick - adds meta tags support for site pages
 
@@ -302,9 +266,6 @@ projects[webform][version] = 3.19
 projects[menu_attributes][subdir] = contrib
 projects[menu_attributes][version] = 1.0-rc2
 
-projects[extlink][subdir] = contrib
-projects[extlink][version] = 1.13
-
 ; nice module crops images
 ; projects[manualcrop][subdir] = contrib
 ; projects[manualcrop][version] = 1.4
@@ -315,10 +276,6 @@ projects[module_filter][version] = 1.8
 
 ; projects[content_experiments][subdir] = contrib
 ; projects[content_experiments][version] = 1.4
-
-; The File entity project is not compatible with Media 7.x-1.x. You must use the File entity module bundled with Media 7.x-1.x.
-; projects[file_entity][subdir] = contrib
-; projects[file_entity][version] = 2.0-alpha3
 
 projects[simple_gmap][subdir] = contrib
 projects[simple_gmap][version] = 1.1
@@ -332,10 +289,6 @@ projects[simple_gmap][version] = 1.1
     ; Panopoly Core Makefile
 
     ; Panels and Chaos Tools Magic
-
-    projects[ctools][version] = 1.3
-    projects[ctools][subdir] = contrib
-    projects[ctools][patch][1925018] = http://drupal.org/files/ctools-1925018-61.patch
 
     ; projects[panels][version] = 3.x-dev
     ; projects[panels][subdir] = contrib
@@ -386,37 +339,11 @@ projects[simple_gmap][version] = 1.1
 
     ; The Usual Suspects
 
-    projects[pathauto][version] = 1.2
-    projects[pathauto][subdir] = contrib
-    projects[pathauto][patch][936222] = http://drupal.org/files/pathauto-persist-936222-130-pathauto-state.patch
-
     projects[token][version] = 1.5
     projects[token][subdir] = contrib
 
-    ; projects[entity][version] = 1.1
-    ; projects[entity][subdir] = contrib
-
-        projects[entity][subdir] = contrib
-        projects[entity][version] = 1.2
-
-    projects[libraries][version] = 2.1
-    projects[libraries][subdir] = contrib
-
-      ; projects[entityreference][version] = 1.0
-    ; projects[entityreference][subdir] = contrib
-
-        projects[entityreference][subdir] = contrib
-        projects[entityreference][version] = 1.1
-
     projects[field_group][version] = 1.1
     projects[field_group][subdir] = contrib
-
-    ; projects[link][version] = 1.1
-    ; projects[link][subdir] = contrib
-
-        projects[link][subdir] = contrib
-        projects[link][version] = 1.2
-
 
     projects[tablefield][version] = 2.2
     projects[tablefield][subdir] = contrib
@@ -430,14 +357,6 @@ projects[simple_gmap][version] = 1.1
     projects[menu_block][subdir] = contrib
 
     ; Panopoly - Contrib - Files & Media
-
-    ; projects[file_entity][version] = 2.x-dev
-    ; projects[file_entity][subdir] = contrib
-    ; projects[file_entity][download][type] = git
-    ; projects[file_entity][download][revision] = 5e12856
-    ; projects[file_entity][download][branch] = 7.x-2.x
-        projects[file_entity][subdir] = contrib
-        projects[file_entity][version] = 2.0-alpha3
 
     ; projects[media][version] = 2.x-dev
     ; projects[media][subdir] = contrib
@@ -471,5 +390,4 @@ projects[kalatheme][version] = 1.3
 projects[kanji][subdir] = contrib
 projects[kanji][type] = theme
 projects[kanji][version] = 3.5
-
 
