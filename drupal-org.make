@@ -2,9 +2,18 @@
 core = "7.x"
 api = "2"
 ; comment this in to use in local development
-; includes[] = drupal-org-core.make
+includes[] = drupal-org-core.make
 
 ; Modules
+
+projects[backup_migrate][subdir] = contrib
+projects[backup_migrate][version] = 2.8
+
+projects[admin_menu][version] = "3.0-rc4"
+projects[admin_menu][subdir] = "contrib"
+
+projects[ctools][version] = "1.2"
+projects[ctools][subdir] = "contrib"
 
 projects[commerce][version] = "1.5"
 projects[commerce][subdir] = "contrib"
@@ -18,11 +27,17 @@ projects[field_redirection][subdir] = "contrib"
 projects[ccl][version] = "1.5"
 projects[ccl][subdir] = "contrib"
 
+projects[date][version] = "2.6"
+projects[date][subdir] = "contrib"
+
 projects[profiler_builder][version] = "1.0-rc3"
 projects[profiler_builder][subdir] = "contrib"
 
-; projects[features][version] = "1.0"
-; projects[features][subdir] = "contrib"
+projects[features][version] = "1.0"
+projects[features][subdir] = "contrib"
+
+projects[diff][version] = "3.2"
+projects[diff][subdir] = "contrib"
 
 projects[features_extra][version] = "1.0-alpha2"
 projects[features_extra][subdir] = "contrib"
@@ -33,6 +48,9 @@ projects[ftools][subdir] = "contrib"
 projects[addressfield][version] = "1.0-beta3"
 projects[addressfield][subdir] = "contrib"
 
+projects[link][version] = "1.0"
+projects[link][subdir] = "contrib"
+
 projects[flexslider][version] = "1.0-rc3"
 projects[flexslider][subdir] = "contrib"
 
@@ -42,23 +60,50 @@ projects[cs_adaptive_image][subdir] = "contrib"
 ; projects[l10n_update][version] = "1.0-beta3"
 ; projects[l10n_update][subdir] = "contrib"
 
-projects[i18n][version] = "1.10"
+projects[i18n][version] = "1.8"
 projects[i18n][subdir] = "contrib"
 
 projects[languageicons][version] = "1.0"
 projects[languageicons][subdir] = "contrib"
 
+projects[rules][version] = "2.2"
+projects[rules][subdir] = "contrib"
+
 projects[colorbox][version] = "1.5"
 projects[colorbox][subdir] = "contrib"
 
+projects[entity][version] = "1.0"
+projects[entity][subdir] = "contrib"
+
+projects[libraries][version] = "2.1"
+projects[libraries][subdir] = "contrib"
+
+projects[module_filter][version] = "1.7"
+projects[module_filter][subdir] = "contrib"
+
+projects[pathauto][version] = "1.2"
+projects[pathauto][subdir] = "contrib"
+
+projects[strongarm][version] = "2.0"
+projects[strongarm][subdir] = "contrib"
+
+projects[token][version] = "1.5"
+projects[token][subdir] = "contrib"
+
 projects[transliteration][version] = "3.1"
 projects[transliteration][subdir] = "contrib"
+
+projects[entityreference][version] = "1.0"
+projects[entityreference][subdir] = "contrib"
 
 projects[rooms][version] = "1.0-rc2"
 projects[rooms][subdir] = "contrib"
 
 projects[rules][version] = "2.2"
 projects[rules][subdir] = "contrib"
+
+projects[google_analytics][version] = "1.3"
+projects[google_analytics][subdir] = "contrib"
 
 projects[omega_tools][version] = "3.0-rc4"
 projects[omega_tools][subdir] = "contrib"
@@ -68,6 +113,40 @@ projects[variable][subdir] = "contrib"
 
 projects[draggableviews][version] = "2.0"
 projects[draggableviews][subdir] = "contrib"
+
+projects[views][version] = "3.5"
+projects[views][subdir] = "contrib"
+
+projects[views_slideshow][version] = "3.0"
+projects[views_slideshow][subdir] = "contrib"
+
+projects[webform][version] = "3.18"
+projects[webform][subdir] = "contrib"
+
+projects[context][version] = "3.0-beta6"
+projects[context][subdir] = "contrib"
+
+; Themes
+projects[omega][type] = "theme"
+projects[omega][version] = "3.1"
+projects[omega][subdir] = "contrib"
+
+; Libraries
+libraries[flexslider][directory_name] = "flexslider"
+libraries[flexslider][download][type] = git
+libraries[flexslider][destination] = "libraries"
+libraries[flexslider][download][url] = https://github.com/woothemes/FlexSlider.git
+
+libraries[colorbox][download][type] = git
+libraries[colorbox][download][url] = https://github.com/jackmoore/colorbox.git
+libraries[colorbox][download][tag] = 1.4.4
+libraries[colorbox][destination] = "libraries"
+
+libraries[jquery.cycle][directory_name] = "jquery.cycle"
+libraries[jquery.cycle][type] = "library"
+libraries[jquery.cycle][destination] = "libraries"
+libraries[jquery.cycle][download][type] = "get"
+libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/master/jquery.cycle.all.js"
 
 projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc4
@@ -99,8 +178,8 @@ projects[feeds_xpathparser][version] = 1.0-beta4
 projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
 
-; projects[htmLawed][subdir] = contrib
-; projects[htmLawed][version] = 3.2
+projects[htmLawed][subdir] = contrib
+projects[htmLawed][version] = 3.2
 
 projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = 2.0-alpha3
@@ -326,12 +405,7 @@ projects[simple_gmap][version] = 1.1
     projects[libraries][version] = 2.1
     projects[libraries][subdir] = contrib
 
-    ; Field modules
-
-    projects[date][version] = 2.6
-    projects[date][subdir] = contrib
-
-    ; projects[entityreference][version] = 1.0
+      ; projects[entityreference][version] = 1.0
     ; projects[entityreference][subdir] = contrib
 
         projects[entityreference][subdir] = contrib
@@ -346,54 +420,6 @@ projects[simple_gmap][version] = 1.1
         projects[link][subdir] = contrib
         projects[link][version] = 1.2
 
-    ; Harness the Power of Features and Apps with Default Content
-
-    projects[apps][version] = 1.0-beta7
-    projects[apps][subdir] = contrib
-    projects[apps][patch][1790902] = http://drupal.org/files/1790902-check-last-modified-existing.patch
-
-    ; projects[features][version] = 2.0-rc1
-    ; projects[features][subdir] = contrib
-
-        projects[features][subdir] = contrib
-        projects[features][version] = 2.0
-
-    projects[strongarm][version] = 2.0
-    projects[strongarm][subdir] = contrib
-
-    projects[defaultconfig][version] = 1.0-alpha9
-    projects[defaultconfig][subdir] = contrib
-
-    projects[defaultcontent][version] = 1.0-alpha9
-    projects[defaultcontent][subdir] = contrib
-    projects[defaultcontent][patch][1754428] = http://drupal.org/files/1754428-allow-node-export-alter.patch
-    projects[defaultcontent][patch][1757782] = http://drupal.org/files/1757782-cannot-import-menu-hierarchy-8.patch
-
-    ; Recommended Modules
-    projects[devel][version] = 1.3
-    projects[devel][subdir] = contrib
-
-    projects[uuid][version] = 1.0-alpha5
-    projects[uuid][subdir] = contrib
-; end of Panopoly Core Makefile
-
-
-; projects[panopoly_images][subdir] = panopoly
-; projects[panopoly_images][version] = 1.0-rc5
-
-; projects[panopoly_theme][subdir] = panopoly
-; projects[panopoly_theme][version] = 1.0-rc5
-
-; projects[panopoly_magic][subdir] = panopoly
-; projects[panopoly_magic][version] = 1.0-rc5
-
-; this project (Panopoly Widgets) has a makefile inside, replace with makefile's content and update properly the inside projects to their latest versions. see example of makefile recrusion https://drupal.org/files/oa2-fix_makefile_recursion-1989188-5.patch
-; projects[panopoly_widgets][subdir] = panopoly
-; projects[panopoly_widgets][version] = 1.0-rc5
-
-    ; Panopoly Widgets Makefile
-
-    ; Panopoly - Contrib - Fields
 
     projects[tablefield][version] = 2.2
     projects[tablefield][subdir] = contrib
@@ -435,40 +461,6 @@ projects[simple_gmap][version] = 1.1
 
 ; end of Panopoly Widgets Makefile
 
-; projects[panopoly_admin][subdir] = panopoly
-; projects[panopoly_admin][version] = 1.0-rc5
-
-; projects[panopoly_users][subdir] = panopoly
-; projects[panopoly_users][version] = 1.0-rc5
-
-; The Panopoly Toolset
-
-; projects[panopoly_pages][subdir] = panopoly
-; projects[panopoly_pages][version] = 1.0-rc5
-
-; projects[panopoly_wysiwyg][subdir] = panopoly
-; projects[panopoly_wysiwyg][version] = 1.0-rc5
-
-; projects[panopoly_search][subdir] = panopoly
-
-; projects[panopoly_news][subdir] = panopoly
-; projects[panopoly_news][version] = 1.0-rc2
-
-; projects[panopoly_faq][subdir] = panopoly
-; projects[panopoly_faq][version] = 2.x-dev
-; add also panopoly_faq_page and panopoly_faq_question
-
-; OpenASU Bootstrap Framework
-
-;projects[openasu_bootstrap][version] = 1.x-dev
-; projects[openasu_bootstrap][type] = theme
-; projects[openasu_bootstrap][subdir] = contrib
-; projects[openasu_bootstrap][download][type] = git
-; projects[openasu_bootstrap][download][url] = https://github.com/kalamuna/openasu_bootstrap.git
-
-; libraries[bootstrap][download][type] = get
-; libraries[bootstrap][download][url] = https://github.com/kalamuna/asu_bootlibrary/archive/v2.3.0.zip
-
 ; Themes
 
 projects[danland][subdir] = contrib
@@ -483,45 +475,4 @@ projects[kanji][subdir] = contrib
 projects[kanji][type] = theme
 projects[kanji][version] = 3.5
 
-; Libraries
 
-; projects[libraries][subdir] = contrib
-; projects[libraries][version] = 2.1
-
-
-; Other Libraries
-
-libraries[superfish][download][type] = get
-libraries[superfish][download][url] = https://github.com/mehrpadin/Superfish-for-Drupal/archive/1.x.zip
-
-
-
-; Panopoly recursion fix, apparently moving this dependancy at the bottom allows the Panopoly Core and Panopoly Widget to have up to date modules, see https://drupal.org/files/oa2-fix_makefile_recursion-1989188-5.patch
-
-; projects[panopoly_core][subdir] = panopoly
-; projects[panopoly_core][version] = 1.0-rc5
-
-; projects[panopoly_widgets][subdir] = panopoly
-; projects[panopoly_widgets][version] = 1.0-rc5
-
-; Themes
-projects[omega][type] = "theme"
-projects[omega][version] = "3.1"
-projects[omega][subdir] = "contrib"
-
-; Libraries
-libraries[flexslider][directory_name] = "flexslider"
-libraries[flexslider][download][type] = git
-libraries[flexslider][destination] = "libraries"
-libraries[flexslider][download][url] = https://github.com/woothemes/FlexSlider.git
-
-libraries[colorbox][download][type] = git
-libraries[colorbox][download][url] = https://github.com/jackmoore/colorbox.git
-libraries[colorbox][download][tag] = 1.4.4
-libraries[colorbox][destination] = "libraries"
-
-libraries[jquery.cycle][directory_name] = "jquery.cycle"
-libraries[jquery.cycle][type] = "library"
-libraries[jquery.cycle][destination] = "libraries"
-libraries[jquery.cycle][download][type] = "get"
-libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/master/jquery.cycle.all.js"
