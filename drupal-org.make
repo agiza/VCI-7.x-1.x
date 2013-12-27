@@ -39,10 +39,10 @@ projects[pathauto][version] = 1.2
 projects[pathauto][subdir] = contrib
 projects[pathauto][patch][936222] = http://drupal.org/files/pathauto-persist-936222-130-pathauto-state.patch
 
-projects[commerce][version] = "1.5"
+projects[commerce][version] = "1.8"
 projects[commerce][subdir] = "contrib"
 
-projects[commerce_google_analytics][version] = "1.0"
+projects[commerce_google_analytics][version] = "1.1"
 projects[commerce_google_analytics][subdir] = "contrib"
 
 projects[field_redirection][version] = "2.5"
@@ -51,34 +51,34 @@ projects[field_redirection][subdir] = "contrib"
 projects[ccl][version] = "1.5"
 projects[ccl][subdir] = "contrib"
 
-projects[date][version] = "2.6"
+projects[date][version] = "2.7"
 projects[date][subdir] = "contrib"
 
-projects[profiler_builder][version] = "1.0-rc3"
+projects[profiler_builder][version] = "1.0"
 projects[profiler_builder][subdir] = "contrib"
 
 projects[features][version] = "1.0"
 projects[features][subdir] = "contrib"
 
-projects[features_extra][version] = "1.0-alpha2"
+projects[features_extra][version] = "1.0-beta1"
 projects[features_extra][subdir] = "contrib"
 
 projects[ftools][version] = "1.6"
 projects[ftools][subdir] = "contrib"
 
-projects[addressfield][version] = "1.0-beta3"
+projects[addressfield][version] = "1.0-beta5"
 projects[addressfield][subdir] = "contrib"
 
 projects[flexslider][version] = "1.0-rc3"
 projects[flexslider][subdir] = "contrib"
 
-projects[cs_adaptive_image][version] = "1.0-alpha2"
+projects[cs_adaptive_image][version] = "1.0"
 projects[cs_adaptive_image][subdir] = "contrib"
 
 ; projects[l10n_update][version] = "1.0-beta3"
 ; projects[l10n_update][subdir] = "contrib"
 
-projects[i18n][version] = "1.8"
+projects[i18n][version] = "1.10"
 projects[i18n][subdir] = "contrib"
 
 projects[languageicons][version] = "1.0"
@@ -87,7 +87,7 @@ projects[languageicons][subdir] = "contrib"
 ; projects[rules][version] = "2.2"
 ; projects[rules][subdir] = "contrib"
 
-projects[colorbox][version] = "1.5"
+projects[colorbox][version] = "2.5"
 projects[colorbox][subdir] = "contrib"
 
 ; projects[module_filter][version] = "1.7"
@@ -105,7 +105,7 @@ projects[transliteration][subdir] = "contrib"
 projects[rooms][version] = "1.0-rc2"
 projects[rooms][subdir] = "contrib"
 
-projects[rules][version] = "2.2"
+projects[rules][version] = "2.3"
 projects[rules][subdir] = "contrib"
 
 ; projects[google_analytics][version] = "1.3"
@@ -114,7 +114,7 @@ projects[rules][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc4"
 projects[omega_tools][subdir] = "contrib"
 
-projects[variable][version] = "2.2"
+projects[variable][version] = "2.3"
 projects[variable][subdir] = "contrib"
 
 projects[draggableviews][version] = "2.0"
