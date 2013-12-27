@@ -6,6 +6,39 @@ includes[] = drupal-org-core.make
 
 ; Modules
 
+projects[backup_migrate][subdir] = contrib
+projects[backup_migrate][version] = 2.8
+
+projects[admin_menu][subdir] = contrib
+projects[admin_menu][version] = 3.0-rc4
+
+projects[ctools][version] = 1.3
+projects[ctools][subdir] = contrib
+projects[ctools][patch][1925018] = http://drupal.org/files/ctools-1925018-61.patch
+
+projects[diff][subdir] = contrib
+projects[diff][version] = 3.2
+
+projects[extlink][subdir] = contrib
+projects[extlink][version] = 1.13
+
+projects[link][subdir] = contrib
+projects[link][version] = 1.2
+
+projects[entity][subdir] = contrib
+projects[entity][version] = 1.2
+projects[entityreference][subdir] = contrib
+projects[entityreference][version] = 1.1
+projects[file_entity][subdir] = contrib
+projects[file_entity][version] = 2.0-alpha3
+
+projects[libraries][version] = 2.1
+projects[libraries][subdir] = contrib
+
+projects[pathauto][version] = 1.2
+projects[pathauto][subdir] = contrib
+projects[pathauto][patch][936222] = http://drupal.org/files/pathauto-persist-936222-130-pathauto-state.patch
+
 projects[commerce][version] = "1.5"
 projects[commerce][subdir] = "contrib"
 
