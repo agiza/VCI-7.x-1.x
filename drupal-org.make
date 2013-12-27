@@ -57,7 +57,7 @@ projects[date][subdir] = "contrib"
 projects[profiler_builder][version] = "1.0"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[features][version] = "1.0"
+projects[features][version] = "2.0"
 projects[features][subdir] = "contrib"
 
 projects[features_extra][version] = "1.0-beta1"
@@ -69,7 +69,7 @@ projects[ftools][subdir] = "contrib"
 projects[addressfield][version] = "1.0-beta5"
 projects[addressfield][subdir] = "contrib"
 
-projects[flexslider][version] = "1.0-rc3"
+projects[flexslider][version] = "2.0-alpha3"
 projects[flexslider][subdir] = "contrib"
 
 projects[cs_adaptive_image][version] = "1.0"
@@ -102,10 +102,10 @@ projects[colorbox][subdir] = "contrib"
 projects[transliteration][version] = "3.1"
 projects[transliteration][subdir] = "contrib"
 
-projects[rooms][version] = "1.0-rc2"
+projects[rooms][version] = "1.0"
 projects[rooms][subdir] = "contrib"
 
-projects[rules][version] = "2.3"
+projects[rules][version] = "2.6"
 projects[rules][subdir] = "contrib"
 
 ; projects[google_analytics][version] = "1.3"
@@ -134,7 +134,7 @@ projects[context][subdir] = "contrib"
 
 ; Themes
 projects[omega][type] = "theme"
-projects[omega][version] = "3.1"
+projects[omega][version] = "4.1"
 projects[omega][subdir] = "contrib"
 
 ; Libraries
@@ -294,7 +294,7 @@ projects[security_review][subdir] = contrib
 projects[security_review][version] = 1.1
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.19
+projects[webform][version] = 4.0-beta1
 
 projects[menu_attributes][subdir] = contrib
 projects[menu_attributes][version] = 1.0-rc2
@@ -305,7 +305,7 @@ projects[menu_attributes][version] = 1.0-rc2
 
 ; force newer version of module_filter
 projects[module_filter][subdir] = contrib
-projects[module_filter][version] = 1.8
+projects[module_filter][version] = 2.0-alpha2
 
 ; projects[content_experiments][subdir] = contrib
 ; projects[content_experiments][version] = 1.4
