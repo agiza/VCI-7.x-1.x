@@ -72,6 +72,9 @@ projects[addressfield][subdir] = "contrib"
 projects[flexslider][version] = "2.0-alpha3"
 projects[flexslider][subdir] = "contrib"
 
+projects[flexslider_views_slideshow][version] = 2.x-dev
+projects[flexslider_views_slideshow][subdir] = contrib
+
 projects[cs_adaptive_image][version] = "1.0"
 projects[cs_adaptive_image][subdir] = "contrib"
 
@@ -134,7 +137,7 @@ projects[context][subdir] = "contrib"
 
 ; Themes
 projects[omega][type] = "theme"
-projects[omega][version] = "4.1"
+projects[omega][version] = "3.1"
 projects[omega][subdir] = "contrib"
 
 ; Libraries
