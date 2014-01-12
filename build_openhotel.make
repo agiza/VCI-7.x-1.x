@@ -16,4 +16,4 @@ projects[openhotel][type] = profile
 ; projects[openhotel][version] = 1.x-dev
 projects[openhotel][download][type] = git
 projects[openhotel][download][url] = https://github.com/maustyle/VCI-7.x-1.x.git
-projects[openhotel][download][branch] = vci11
+projects[openhotel][download][branch] = vci12

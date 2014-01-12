@@ -2,7 +2,7 @@
 core = "7.x"
 api = "2"
 ; comment this in to use in local development
-includes[] = drupal-org-core.make
+; includes[] = drupal-org-core.make
 
 ; Modules
 projects[admin_menu][version] = "3.0-rc4"
@@ -147,8 +147,8 @@ libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/ma
 
 ; Modules
 
-; projects[backup_migrate][subdir] = contrib
-; projects[backup_migrate][version] = 2.8
+projects[backup_migrate][subdir] = contrib
+projects[backup_migrate][version] = 2.8
 
 ; projects[admin_menu][version] = "3.0-rc4"
 ; projects[admin_menu][subdir] = "contrib"
@@ -186,7 +186,7 @@ libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/ma
 ; projects[ftools][version] = "1.6"
 ; projects[ftools][subdir] = "contrib"
 
-; projects[addressfield][version] = "1.0-beta3"
+; projects[addressfield][version] = "1.0-beta5"
 ; projects[addressfield][subdir] = "contrib"
 
 ; projects[link][version] = "1.0"
