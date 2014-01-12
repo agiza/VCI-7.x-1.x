@@ -41,7 +41,7 @@ projects[features_extra][subdir] = "contrib"
 projects[ftools][version] = "1.6"
 projects[ftools][subdir] = "contrib"
 
-projects[addressfield][version] = "1.0-beta3"
+projects[addressfield][version] = "1.0-beta5"
 projects[addressfield][subdir] = "contrib"
 
 projects[link][version] = "1.0"
