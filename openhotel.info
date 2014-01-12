@@ -170,3 +170,26 @@ dependencies[] = openhotel_views
 
 ; Files included with profile
  files[] = opendeals.profile
+
+; vci
+
+dependencies[] = backup_migrate
+dependencies[] = coffee
+dependencies[] = menu_position
+dependencies[] = metatag
+dependencies[] = xmlsitemap
+dependencies[] = nodequeue
+dependencies[] = auto_nodequeue
+dependencies[] = robotstxt
+dependencies[] = js_injector
+dependencies[] = css_injector
+; dependencies[] = google_authorship
+; dependencies[] = panelizer
+; dependencies[] = panels_breadcrumbs
+; dependencies[] = fieldable_panels_panes
+; dependencies[] = pm_existing_pages
+; dependencies[] = fape
+dependencies[] = menu_block
+dependencies[] = extlink
+dependencies[] = i18n
+

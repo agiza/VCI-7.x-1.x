@@ -9,11 +9,11 @@ core = 7.x
 ; includes[] = drupal-org-core.make
 
 projects[drupal][type] = core
-projects[drupal][version] = 7.21
+projects[drupal][version] = 7.24
 
 ; Add Opendeals to the full distribution build.
 projects[openhotel][type] = profile
 ; projects[openhotel][version] = 1.x-dev
 projects[openhotel][download][type] = git
 projects[openhotel][download][url] = https://github.com/maustyle/VCI-7.x-1.x.git
-projects[openhotel][download][branch] = 7.x-1.x-vci1
+projects[openhotel][download][branch] = vci13

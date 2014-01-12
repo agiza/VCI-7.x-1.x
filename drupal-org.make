@@ -2,14 +2,47 @@
 core = "7.x"
 api = "2"
 ; comment this in to use in local development
-includes[] = drupal-org-core.make
+; includes[] = drupal-org-core.make
 
 ; Modules
 
-projects[commerce][version] = "1.5"
+projects[backup_migrate][subdir] = contrib
+projects[backup_migrate][version] = 2.8
+
+projects[admin_menu][subdir] = contrib
+projects[admin_menu][version] = 3.0-rc4
+
+projects[ctools][version] = 1.3
+projects[ctools][subdir] = contrib
+projects[ctools][patch][1925018] = http://drupal.org/files/ctools-1925018-61.patch
+
+projects[diff][subdir] = contrib
+projects[diff][version] = 3.2
+
+projects[extlink][subdir] = contrib
+projects[extlink][version] = 1.13
+
+projects[link][subdir] = contrib
+projects[link][version] = 1.2
+
+projects[entity][subdir] = contrib
+projects[entity][version] = 1.2
+projects[entityreference][subdir] = contrib
+projects[entityreference][version] = 1.1
+projects[file_entity][subdir] = contrib
+projects[file_entity][version] = 2.0-alpha3
+
+projects[libraries][version] = 2.1
+projects[libraries][subdir] = contrib
+
+projects[pathauto][version] = 1.2
+projects[pathauto][subdir] = contrib
+projects[pathauto][patch][936222] = http://drupal.org/files/pathauto-persist-936222-130-pathauto-state.patch
+
+projects[commerce][version] = "1.8"
 projects[commerce][subdir] = "contrib"
 
-projects[commerce_google_analytics][version] = "1.0"
+projects[commerce_google_analytics][version] = "1.1"
 projects[commerce_google_analytics][subdir] = "contrib"
 
 projects[field_redirection][version] = "2.5"
@@ -18,34 +51,37 @@ projects[field_redirection][subdir] = "contrib"
 projects[ccl][version] = "1.5"
 projects[ccl][subdir] = "contrib"
 
-projects[date][version] = "2.6"
+projects[date][version] = "2.7"
 projects[date][subdir] = "contrib"
 
-projects[profiler_builder][version] = "1.0-rc3"
+projects[profiler_builder][version] = "1.0"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[features][version] = "1.0"
+projects[features][version] = "2.0"
 projects[features][subdir] = "contrib"
 
-projects[features_extra][version] = "1.0-alpha2"
+projects[features_extra][version] = "1.0-beta1"
 projects[features_extra][subdir] = "contrib"
 
 projects[ftools][version] = "1.6"
 projects[ftools][subdir] = "contrib"
 
-projects[addressfield][version] = "1.0-beta3"
+projects[addressfield][version] = "1.0-beta5"
 projects[addressfield][subdir] = "contrib"
 
-projects[flexslider][version] = "1.0-rc3"
+projects[flexslider][version] = "2.0-alpha3"
 projects[flexslider][subdir] = "contrib"
 
-projects[cs_adaptive_image][version] = "1.0-alpha2"
+projects[flexslider_views_slideshow][version] = 2.x-dev
+projects[flexslider_views_slideshow][subdir] = contrib
+
+projects[cs_adaptive_image][version] = "1.0"
 projects[cs_adaptive_image][subdir] = "contrib"
 
 ; projects[l10n_update][version] = "1.0-beta3"
 ; projects[l10n_update][subdir] = "contrib"
 
-projects[i18n][version] = "1.8"
+projects[i18n][version] = "1.10"
 projects[i18n][subdir] = "contrib"
 
 projects[languageicons][version] = "1.0"
@@ -54,7 +90,7 @@ projects[languageicons][subdir] = "contrib"
 ; projects[rules][version] = "2.2"
 ; projects[rules][subdir] = "contrib"
 
-projects[colorbox][version] = "1.5"
+projects[colorbox][version] = "2.5"
 projects[colorbox][subdir] = "contrib"
 
 ; projects[module_filter][version] = "1.7"
@@ -69,10 +105,10 @@ projects[colorbox][subdir] = "contrib"
 projects[transliteration][version] = "3.1"
 projects[transliteration][subdir] = "contrib"
 
-projects[rooms][version] = "1.0-rc2"
+projects[rooms][version] = "1.0"
 projects[rooms][subdir] = "contrib"
 
-projects[rules][version] = "2.2"
+projects[rules][version] = "2.6"
 projects[rules][subdir] = "contrib"
 
 ; projects[google_analytics][version] = "1.3"
@@ -81,7 +117,7 @@ projects[rules][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc4"
 projects[omega_tools][subdir] = "contrib"
 
-projects[variable][version] = "2.2"
+projects[variable][version] = "2.3"
 projects[variable][subdir] = "contrib"
 
 projects[draggableviews][version] = "2.0"
@@ -261,7 +297,7 @@ projects[security_review][subdir] = contrib
 projects[security_review][version] = 1.1
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.19
+projects[webform][version] = 4.0-beta1
 
 projects[menu_attributes][subdir] = contrib
 projects[menu_attributes][version] = 1.0-rc2
@@ -272,7 +308,7 @@ projects[menu_attributes][version] = 1.0-rc2
 
 ; force newer version of module_filter
 projects[module_filter][subdir] = contrib
-projects[module_filter][version] = 1.8
+projects[module_filter][version] = 2.0-alpha2
 
 ; projects[content_experiments][subdir] = contrib
 ; projects[content_experiments][version] = 1.4
