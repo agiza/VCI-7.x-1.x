@@ -6,7 +6,7 @@
 api = 2
 core = 7.x
 
-includes[] = "https://raw2.github.com/maustyle/VCI-7.x-1.x/vci12/drupal-org-core.make"
+; includes[] = "https://raw2.github.com/maustyle/VCI-7.x-1.x/vci12/drupal-org-core.make"
 
 projects[drupal][type] = core
 projects[drupal][version] = 7.24
