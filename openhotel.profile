@@ -14,9 +14,9 @@ function opnehotel_form_install_configure_form_alter(&$form, &$form_state, $form
     $form['site_information']['site_mail']['#default_value'] = 'noreply@' . $_SERVER['HTTP_HOST'];
     $form['admin_account']['account']['mail']['#default_value'] = 'noreply@' . $_SERVER['HTTP_HOST'];
   } else {
-    $form['site_information']['site_mail']['#default_value'] = "noreply@vacanzecroate.com";
+    $form['site_information']['site_mail']['#default_value'] = "noreply@email.com";
   }
   $form['admin_account']['account']['name']['#default_value'] = 'admin';
-  $form['server_settings']['site_default_country']['#default_value'] = 'US';
-  $form['server_settings']['date_default_timezone']['#default_value'] = 'America/Los_Angeles';
+  $form['server_settings']['site_default_country']['#default_value'] = 'AU';
+  $form['server_settings']['date_default_timezone']['#default_value'] = 'Australia/Melbourne';
 }
