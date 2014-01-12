@@ -4,6 +4,11 @@
 //  * Implement hook_install().
 //  *
 //  * Perform actions to set up the site for this profile.
+
+
+ // TODO: needs to work on Aegir.
+
+
 //  */
 // function openhotel_install() {
 //   openhotel_enable_theme();
